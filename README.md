@@ -9,7 +9,7 @@
 ![Release](https://img.shields.io/badge/Release-v1.0.0-2EA44F?style=for-the-badge)
 ![Hotspot Fixed](https://img.shields.io/badge/Right--Click-Hotspot%20Fixed-FF7A59?style=for-the-badge)
 
-<img src="assets/cursor-showcase.gif" alt="MacOS Win Cursor Pack animated showcase" width="900">
+<img src="cursor-showcase.gif" alt="MacOS Win Cursor Pack animated showcase" width="900">
 
 </div>
 
