@@ -105,6 +105,4 @@ If you redistribute or modify this cursor pack, please retain attribution where 
 
 # Author
 
-Kaixi
-
-GitHub: https://github.com/
+ForeverKaixi
