@@ -17,7 +17,7 @@
 
 ## Overview
 
-**MacOS Win Cursor Pack — Kaixi Edition** is a clean, high-contrast cursor theme designed to bring a macOS-like pointer experience to Windows. The pack includes static `.cur` pointers and animated `.ani` loading cursors, covering the major Windows cursor roles from normal selection and text input to resizing, moving, unavailable states, and background activity.
+**MacOS Win Cursor Pack** is a clean, high-contrast cursor theme designed to bring a macOS-like pointer experience to Windows. The pack includes static `.cur` pointers and animated `.ani` loading cursors, covering the major Windows cursor roles from normal selection and text input to resizing, moving, unavailable states, and background activity.
 
 This edition also focuses on practical usability: hotspot positioning has been adjusted to improve click accuracy, including the right-click alignment issue that commonly appears in cursor conversions.
 
