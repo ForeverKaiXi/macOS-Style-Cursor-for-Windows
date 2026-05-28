@@ -1,6 +1,6 @@
 <div align="center">
 
-#  MacOS Win Cursor Pack — Kaixi Edition
+#  MacOS Win Cursor Pack — Kaixi Edition
 
 **A macOS-inspired Windows cursor theme with polished hotspots, animated loading states, and full system pointer coverage.**
 
