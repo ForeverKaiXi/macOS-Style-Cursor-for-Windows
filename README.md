@@ -1,108 +1,126 @@
-# MacOS Win Cursor Pack — Kaixi Edition
+<div align="center">
 
-A lightweight macOS-style cursor theme for Windows, including animated loading cursors and complete system pointer replacements.
+#  MacOS Win Cursor Pack — Kaixi Edition
 
-## Preview
+**A macOS-inspired Windows cursor theme with polished hotspots, animated loading states, and full system pointer coverage.**
 
-This cursor pack provides a clean macOS-inspired pointer experience on Windows systems, featuring:
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![Cursor Theme](https://img.shields.io/badge/Cursor%20Theme-.cur%20%2B%20.ani-6E7BFF?style=for-the-badge)
+![Release](https://img.shields.io/badge/Release-v1.0.0-2EA44F?style=for-the-badge)
+![Hotspot Fixed](https://img.shields.io/badge/Right--Click-Hotspot%20Fixed-FF7A59?style=for-the-badge)
 
-* Smooth animated loading cursors
-* macOS-like arrow and hand pointers
-* Complete Windows cursor role coverage
-* Right-click alignment fix
-* Lightweight `.cur` and `.ani` implementation
+<img src="assets/cursor-showcase.gif" alt="MacOS Win Cursor Pack animated showcase" width="900">
 
-## Included Cursor Files
-
-| Cursor Role           | File                      |
-| --------------------- | ------------------------- |
-| Normal Select         | `arrow.cur`               |
-| Text Select           | `ibeam.cur`               |
-| Link Select           | `hand.cur`                |
-| Help Select           | `help.cur`                |
-| Busy                  | `loading.ani`             |
-| Working in Background | `loading_alternative.ani` |
-| Precision Select      | `crosshair.cur`           |
-| Unavailable           | `no.cur`                  |
-| Move                  | `sizeall.cur`             |
-| Resize Horizontal     | `sizewe.cur`              |
-| Resize Vertical       | `sizens.cur`              |
-| Resize Diagonal 1     | `sizenesw.cur`            |
-| Resize Diagonal 2     | `sizenwse.cur`            |
-| Handwriting           | `nwpen.cur`               |
-| Wait                  | `wait.ani`                |
+</div>
 
 ---
 
-# Installation
+## Overview
 
-## Method 1 — Automatic Installation (Recommended)
+**MacOS Win Cursor Pack — Kaixi Edition** is a clean, high-contrast cursor theme designed to bring a macOS-like pointer experience to Windows. The pack includes static `.cur` pointers and animated `.ani` loading cursors, covering the major Windows cursor roles from normal selection and text input to resizing, moving, unavailable states, and background activity.
 
-1. Download this repository as ZIP
-2. Extract all files
-3. Right-click `Install.inf`
-4. Click **Install**
-5. Open:
+This edition also focuses on practical usability: hotspot positioning has been adjusted to improve click accuracy, including the right-click alignment issue that commonly appears in cursor conversions.
+
+## Highlights
+
+- macOS-inspired pointer aesthetics for Windows
+- Full cursor-role coverage for daily desktop use
+- Animated busy, wait, and background-working cursors
+- Right-click hotspot alignment fixed
+- Lightweight native `.cur` and `.ani` files
+- No external cursor manager required
+- Suitable for Windows 10 and Windows 11
+
+## Cursor Set
+
+| Windows Role | Cursor File |
+|---|---|
+| Normal Select | `arrow.cur` |
+| Text Select | `ibeam.cur` |
+| Link Select | `hand.cur` |
+| Help Select | `help.cur` |
+| Busy | `loading.ani` |
+| Working in Background | `loading_alternative.ani` |
+| Precision Select | `crosshair.cur` |
+| Unavailable | `no.cur` |
+| Move | `sizeall.cur` |
+| Horizontal Resize | `sizewe.cur` |
+| Vertical Resize | `sizens.cur` |
+| Diagonal Resize `/` | `sizenesw.cur` |
+| Diagonal Resize `\` | `sizenwse.cur` |
+| Handwriting | `nwpen.cur` |
+| Wait | `wait.ani` |
+
+## Installation
+
+### Automatic installation
+
+1. Download the latest release ZIP.
+2. Extract the archive.
+3. Right-click `Install.inf`.
+4. Select **Install**.
+5. Open Windows mouse settings and apply the installed cursor scheme.
 
 ```text
-Settings → Bluetooth & devices → Mouse → Additional mouse settings
+Settings → Bluetooth & devices → Mouse → Additional mouse settings → Pointers
 ```
 
-6. Select the installed cursor scheme
-7. Apply changes
+### Manual installation
 
----
-
-## Method 2 — Manual Installation
-
-1. Copy all `.cur` and `.ani` files to:
+Copy all `.cur` and `.ani` files to:
 
 ```text
 C:\Windows\Cursors\
 ```
 
-2. Open Mouse Pointer Settings
-3. Manually assign each cursor role
+Then open the Windows pointer settings panel and manually assign each cursor role.
 
----
+## Compatibility
 
-# Features
+| Platform | Status |
+|---|---|
+| Windows 10 | Supported |
+| Windows 11 | Supported |
+| Windows on ARM | Untested |
 
-* macOS-inspired visual style
-* Optimized hotspot positioning
-* Fixed right-click alignment issue
-* Compatible with Windows 10 / Windows 11
-* Minimal resource usage
-* Animated busy indicators
+## Repository Structure
 
----
+```text
+.
+├── README.md
+├── Install.inf
+├── arrow.cur
+├── hand.cur
+├── loading.ani
+├── wait.ani
+├── ...
+└── assets/
+    └── cursor-showcase.gif
+```
 
-# Compatibility
+## Troubleshooting
 
-| System      | Support     |
-| ----------- | ----------- |
-| Windows 10  | ✅           |
-| Windows 11  | ✅           |
-| Windows ARM | ⚠️ Untested |
+If the cursor scheme does not appear after installation, restart Windows Explorer or reboot the system. Administrator permission may be required when installing through `Install.inf`. If another cursor manager is active, it may override the Windows pointer scheme.
 
----
+## Release Package
 
-# Notes
+For GitHub Releases, upload the ZIP archive containing `Install.inf`, all cursor files, and this README. Recommended tag format:
 
-* Administrator permission may be required during installation.
-* If the cursor scheme does not appear immediately, restart Windows Explorer or reboot the system.
-* Some third-party cursor managers may override system settings.
+```text
+v1.0.0
+```
 
----
+Recommended release title:
 
-# License
+```text
+MacOS Win Cursor Pack v1.0.0
+```
 
-This project is distributed for personal customization use.
+## License
 
-If you redistribute or modify this cursor pack, please retain attribution where appropriate.
+This cursor pack is intended for personal desktop customization. If you redistribute or modify it, retain attribution where appropriate.
 
----
+## Author
 
-# Author
+**Kaixi**
 
-ForeverKaixi
