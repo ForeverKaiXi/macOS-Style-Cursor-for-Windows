@@ -1,6 +1,6 @@
 <div align="center">
 
-#  MacOS Win Cursor Pack — Kaixi Edition
+#  MacOS Win Cursor Pack
 
 **A macOS-inspired Windows cursor theme with polished hotspots, animated loading states, and full system pointer coverage.**
 
@@ -119,8 +119,4 @@ MacOS Win Cursor Pack v1.0.0
 ## License
 
 This cursor pack is intended for personal desktop customization. If you redistribute or modify it, retain attribution where appropriate.
-
-## Author
-
-**Kaixi**
 
